@@ -1,4 +1,5 @@
 # Histogram-Equalization
-![image](https://github.com/debolina20/Histogram-Equalization/assets/66356392/83a5c217-bd1f-477f-b7ec-c18f48f3523f)
-![image](https://github.com/debolina20/Histogram-Equalization/assets/66356392/f86c5083-5b46-48e2-a5c9-512b82477d32)
 
+Histogram Equalization: In image analysis/image processing, histogram equalization (and a related concept, histogram matching) is a common tool used to enhance the contrast in images with poor contrast. Consider a gray-scale image. If the intensity of the pixels in the image is treated as a random variable (say X), the histogram of intensity values would be an approximation of the pdf of the intensity R.V. In histogram equalization, the goal is often to
+modify the random variable (pixel intensities in this case) through a transformation, say Y = g(X), such that after the transformation, the new random variable (Y ) represents intensity values of a new (transformed) image whose resulting histogram (think pdf) is flat (uniform). This results in areas of the image with poor contrast to result in greater contrast. A modification of this approach, called histogram matching, instead finds a mapping Y = g(X) such that the pdf/histogram of the modified data Y matches any desired “target” pdf/histogram (not just a uniform pdf). This concept is commonly used in many photo-editing apps, where such a transformation is used to modify the histogram to a desired “target” histogram.
+In this problem, you are required to understand and utilize histogram equalization on the grayscale images provided to you.
